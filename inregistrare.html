@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inregistrare.css" />
+    <script src="Inregistrare.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="register-form">
+        <form> <!--Template de timp formular-->
+            <h1>Sign-up/Inregistrare</h1>
+            <div class="content">
+                <div class="input-field">
+                    <input id="firstName" type="name" placeholder="First Name" autocomplete="no">
+                </div>
+                <div class="input-field">
+                    <input id="lastName" type="last-name" placeholder="Last Name" autocomplete="no">
+                </div>
+                <div class="input-field">
+                    <input id="emailAdress" type="email" placeholder="Email" autocomplete="no">
+                </div>
+                <div class="input-field">
+                    <input id="passwordPeople" type="password" placeholder="Password" autocomplete="new-password">
+                    <!--de adaugat ochisor de ala care ti arata parola-->
+                </div>
+                <div class="input-field">
+                    <input id="confirmPasswordPeople" type="password" placeholder="Confirm password"
+                        autocomplete="new-password">
+                </div>
+                <div class="tacbox">
+                    <input id="checkbox" type="checkbox" />
+                    <label for="checkbox"> I agree to these <a href="#">Terms and Conditions</a>.</label>
+                </div>
+            </div>
+
+            <div class="action">
+                <button id="createAccount">Create account</button>
+            </div>
+            <div class="Final">
+                <span>Already have an account? </span><a href="Pagina-Login.html" class="Member">Sign-in</a></span>
+            </div>
+
+
+        </form>
+    </div>
+</body>
+
+</html>

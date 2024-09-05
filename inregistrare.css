@@ -1,0 +1,139 @@
+* {
+    /*Am folosit selectorul universal pentru a customiza toate elementele din html*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    /*Am colorat intreaga pagina si i-am oferit un font special*/
+    background: #b56233;
+    background-image: linear-gradient(#895332, rgb(243, 192, 96));
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.register-form {
+    /*am creat casuta alba si am incercat sa o stilizez */
+    background: #fff;
+    height: 640px;
+    width: 500px;
+    margin: 65px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.2);
+    position: relative;
+
+}
+
+.register-form .action {
+    position: relative;
+    margin: 0;
+    top: -20px;
+    left: 15%;
+}
+
+.register-form h1 {
+    /*Am incercat sa aliniez tiltul prin padding dand diferite dimensiuni iar cu partea de weight l-am ingrosat*/
+    padding: 20px 20px 0px 110px;
+    font-weight: 50px;
+
+}
+
+.register-form .content {
+    /*am Selectat strict clasa content pentru a o centra si a o dimensiona*/
+    padding: 30px;
+    text-align: center;
+}
+
+.register-form .input-field {
+    padding: 15px 5px;
+}
+
+.register-form .input-field input {
+    /*am stilizat campurile unde trebuie completate de catre utilizator si am adaugat tranzitiile deriogare*/
+    font-size: 17px;
+    border: 0;
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    padding: 5px 5px;
+    border-bottom: 1px solid #784d4d;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.register-form .action {
+    display: flex;
+}
+
+.register-form .action button {
+    /* Am stilizat butonul de jos sign in si  am adaugat tranzitiile derigoare*/
+    width: 70%;
+    border: none;
+    padding: 20px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #e8e9ec;
+    color: black;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    letter-spacing: 1px;
+    outline: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    position: relative;
+    margin-top: 15px;
+}
+
+
+.register-form .action button:hover {
+    background: #d8d8d8;
+}
+
+.register-form .action button:nth-child(1) {
+    background: #9a325a;
+    color: #fff;
+    /* border-bottom-left-radius: 0;
+     border-bottom-right-radius: 5px; */
+}
+
+.register-form .action button:nth-child(1):hover {
+    background: rgb(82, 183, 82);
+}
+
+.register-form .Final {
+    position: relative;
+    margin: 5%;
+    top: 0%;
+    left: 20%;
+}
+
+.tacbox {
+    display: block;
+    padding: 2px;
+    margin: 2px;
+}
+
+/* input {
+    height: 2em;
+    width: 2em;
+    vertical-align: middle;
+  } */
+/*
+  label {
+    outline: 2px dotted #f00;
+  }
+  
+  /*
+  label:after {
+    content: attr(for);
+  }*/

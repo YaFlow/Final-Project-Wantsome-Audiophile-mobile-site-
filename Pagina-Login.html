@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Pagina-Login.css" />
+  <script src="Pagina-login.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="login-form" class="login-form">
+    <form> <!--Template de timp formular-->
+      <h1>Login/Autentificare</h1>
+      <div class="content">
+        <div class="input-field">
+          <input type="email" name="username" id="usernameInput" placeholder="Email" autocomplete="no">
+        </div>
+        <div class="input-field">
+          <input type="password" name="password" id="passwordInput" placeholder="Password" autocomplete="new-password">
+          <button type="button" id="show-passwd">
+            <img src="/Audiophile/assets/eye_open.svg" alt="Show Password" />
+          </button>
+        </div>
+        <!-- <div class="verificare">
+          <input type="checkbox" class="verificare" onclick="togglePasswordVisibility()">
+        </div> -->
+        <a href="Forgotpassword.html" class="link">Forgot your password?</a>
+      </div>
+      <div class="action">
+        <button id="Loginbutton">Sign in</button>
+      </div>
+      <div class="Final">
+        <span>Not a member? </span><a href="inregistrare.html" class="Member">Sign-up</a></span>
+      </div>
+    </form>
+  </div>
+
+</body>
+
+</html>

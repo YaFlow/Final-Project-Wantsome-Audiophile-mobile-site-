@@ -1,0 +1,90 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Manrope", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 0 30px;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+@media screen and (min-width: 990px) {
+  .container1 {
+    width: 900px;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .top {
+    height: 650px;
+  }
+  .top nav {
+    display: flex;
+  }
+  button {
+    display: none;
+  }
+  .NEW_PRODUCT {
+    width: 50%;
+    top: calc(25% - 10px - 63px);
+  }
+  .XX99 {
+    width: 50%;
+    top: calc(25% - 20px - 35px);
+  }
+}/*# sourceMappingURL=Homepage_large-screen.css.map */

@@ -1,0 +1,569 @@
+@import"colors";
+@import"spacing";
+@import"typography";
+@import"base";
+
+
+.top {
+    background-image: url("Audiophile/assets/home/desktop/image-hero.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding-top: $largeSpacing;
+    position: relative;
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+    nav {
+        display: none;
+    }
+
+}
+
+.NEW_PRODUCT {
+    position: absolute;
+    height: 38px;
+    left: 19.82%;
+    right: 19.51%;
+    top: calc(50% - 38px/2 - 126.03px);
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.XX99 {
+    position:absolute;
+    height: 80px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 40px - 70.03px);
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    /* or 111% */
+    text-align: center;
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 2px;
+}
+
+.Text {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 47.93%;
+    bottom: 26.21%;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+
+body {
+    background-color: white;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.see_product_button {
+    width: 180px;
+    height: 48px;
+    position: absolute;
+    left: 33%;
+    right: 25.61%;
+    top: 75%;
+    bottom: 0%;
+    background-color: hsl(22, 65%, 57%);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.products {
+    margin-top: $xxlSpacing;
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .articleList {
+            display: flex;
+            flex-direction: column;
+            gap: $mediuSpacing;
+
+
+
+        }
+
+        article {
+
+
+            &:nth-of-type(1) {
+                position: relative;
+                background-image: url('../Audiophile/assets/Mask.svg');
+                height: 200px;
+                width: 400px;
+                text-align: center;
+
+                .image1 {
+                    position: absolute;
+                }
+
+            }
+
+            &:nth-of-type(2) {
+                background-image: url('../Audiophile/assets/Mask.svg');
+                height: 200px;
+                width: 400px;
+                text-align: center;
+
+                .image2 {
+                    position: absolute;
+                }
+
+            }
+
+            &:nth-of-type(3) {
+                background-image: url('../Audiophile/assets/Mask.svg');
+                height: 200px;
+                width: 400px;
+                text-align: center;
+
+                .image3 {
+                    position: absolute;
+                }
+
+            }
+
+            h5 {
+                left: 50%;
+            }
+
+            .shop {
+                position: relative;
+                top: 20%;
+
+            }
+
+        }
+
+    }
+
+}
+
+.speakers1 {
+    margin-top: $xxlSpacing;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .container3 {
+        width: 330px;
+        height: 600px;
+        border-radius: 8px;
+        background: #D87D4A;
+        border: none;
+        padding: none;
+        position: relative;
+        display: inline-block;
+
+
+        .cerc {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50%;
+            border-radius: 50%;
+            border: 3px solid white;
+            margin: 10px 40px 40px 0px;
+
+        }
+
+        .speaker1 {
+            margin: 55px 77px 55px 77px;
+        }
+
+
+        .Xmark {
+            color: $white;
+            text-align: right;
+            font-size: 36px;
+            font-family: Manrope;
+            font-weight: 700;
+            line-height: 40px;
+            letter-spacing: 1.286px;
+            text-transform: uppercase;
+            width: 280px;
+            position: relative;
+            top: 20px;
+            left: 19px;
+
+        }
+
+        .Text1 {
+            width: 280px;
+            color: #FFF;
+            text-align: center;
+            font-size: 15px;
+            font-family: Manrope;
+            font-weight: 500;
+            line-height: 25px;
+            opacity: 0.75;
+            position: relative;
+            top: 15px;
+            left: 19px;
+
+        }
+
+        .see_product_button1 {
+            border: 2px solid black;
+            background-color: $black;
+            color: $semiWhite;
+            padding: 14px 28px;
+            position: relative;
+            top: 15px;
+            left: 75px;
+            font-size: 13px;
+            font-family: Manrope;
+            font-weight: 700;
+            letter-spacing: 1px;
+            width: 180px;
+            height: 48px;
+            text-transform: uppercase;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+
+    }
+}
+
+.speakers2 {
+    margin-top: $xlSpacing;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .container4 {
+        position: relative;
+        display: center;
+
+    }
+
+    .speaker2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+        position: relative;
+        text-align: center;
+    }
+
+    .Xmark2 {
+        position: absolute;
+        top: 25%;
+        left: 42%;
+        transform: translate(-50%, -50%);
+        color: $black;
+        font-size: 28px;
+        font-family: Manrope;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .see_product_button2 {
+        border: 1px solid $black;
+        color: $black;
+        padding: 14px 28px;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        font-size: 13px;
+        font-family: Manrope;
+        font-weight: 700;
+        letter-spacing: 1px;
+        width: 180px;
+        height: 48px;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+}
+
+.earbuds {
+    margin-top: $xlSpacing;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .container5 {
+        position: relative;
+        display: center;
+
+    }
+
+    .earbud1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+        position: relative;
+        text-align: center;
+    }
+
+}
+
+.earbuds1 {
+    margin-top: $xlSpacing;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .container7 {
+        position: relative;
+        display: center;
+
+    }
+
+    .earbud2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+        position: relative;
+        text-align: center;
+    }
+
+    .YX1 {
+        position: absolute;
+        top: 25%;
+        left: 42%;
+        transform: translate(-50%, -50%);
+        color: $black;
+        font-size: 28px;
+        font-family: Manrope;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .see_product_button3 {
+        border: 1px solid $black;
+        color: $black;
+        padding: 14px 28px;
+        position: absolute;
+        top: 65%;
+        left: 10%;
+        font-size: 13px;
+        font-family: Manrope;
+        font-weight: 700;
+        letter-spacing: 1px;
+        width: 180px;
+        height: 48px;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+}
+
+.presentation {
+    margin-top: $xxlSpacing;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .container8 {
+        position: relative;
+        display: center;
+
+    }
+
+    .guy {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+        position: relative;
+        text-align: center;
+    }
+
+}
+
+
+
+.presentation1 {
+    margin-top: $xxlSpacing;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+    .container9 {
+        width: 330px;
+        height: 550px;
+        border-radius: 8px;
+        border: none;
+        padding: none;
+        position: relative;
+        display: inline-block;
+
+    }
+
+    .Bring {
+        display: flex;
+        width: 327px;
+        flex-direction: column;
+        color: #000;
+        text-align: center;
+        font-size: 28px;
+        font-family: Manrope;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+
+    }
+
+    .Text2 {
+        display: flex;
+        width: 327px;
+        flex-direction: column;
+        color: #000;
+        text-align: center;
+        font-size: 15px;
+        font-family: Manrope;
+        font-weight: 500;
+        line-height: 25px;
+        opacity: 0.5;
+
+    }
+
+    .colored-word {
+        color: #D87D4A;
+        font-size: 30px;
+    }
+}
+
+footer {
+    margin-top: $largeSpacing;
+    background-color: $black;
+    width: 100%;
+
+    .container10 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: $mediuSpacing ;
+        gap: $baseSpacing
+    }
+
+    a {
+        text-decoration: none;
+        color: $white;
+
+    }
+
+    ul {
+        display: flex;
+        text-align: center;
+    }
+
+    nav {
+        ul {
+            flex-direction: column;
+            gap: $baseSpacing;
+        }
+
+    }
+
+    .social {
+        margin-top: $baseSpacing;
+        width: 150px;
+        justify-content: space-between;
+        margin-bottom: $xlSpacing ;
+
+    }
+
+
+
+
+
+
+
+    .Text3 {
+        // display: flex;
+        width: 327px;
+        flex-direction: column;
+        color: #FFF;
+        text-align: center;
+        font-size: 15px;
+        font-family: Manrope;
+        font-weight: 500;
+        line-height: 25px;
+        opacity: 0.5;
+
+    }
+
+    p {
+        color: #FFF;
+        font-size: 15px;
+        font-family: Manrope;
+        font-weight: 700;
+        line-height: 25px;
+        opacity: 0.5;
+    }
+}

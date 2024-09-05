@@ -1,0 +1,527 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Manrope", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 0 30px;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+.top {
+  background-image: url("Audiophile/assets/home/desktop/image-hero.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding-top: 45px;
+  position: relative;
+}
+.top header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top nav {
+  display: none;
+}
+
+.NEW_PRODUCT {
+  position: absolute;
+  height: 38px;
+  left: 19.82%;
+  right: 19.51%;
+  top: calc(50% - 19px - 126.03px);
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.XX99 {
+  position: absolute;
+  height: 80px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 40px - 70.03px);
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  /* or 111% */
+  text-align: center;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 2px;
+}
+
+.Text {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 47.93%;
+  bottom: 26.21%;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  text-align: center;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+body {
+  background-color: white;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.see_product_button {
+  width: 180px;
+  height: 48px;
+  position: absolute;
+  left: 33%;
+  right: 25.61%;
+  top: 75%;
+  bottom: 0%;
+  background-color: hsl(22, 65%, 57%);
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.products {
+  margin-top: 120px;
+}
+.products .container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.products .container2 .articleList {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.products .container2 article:nth-of-type(1) {
+  position: relative;
+  background-image: url("../Audiophile/assets/Mask.svg");
+  height: 200px;
+  width: 400px;
+  text-align: center;
+}
+.products .container2 article:nth-of-type(1) .image1 {
+  position: absolute;
+}
+.products .container2 article:nth-of-type(2) {
+  background-image: url("../Audiophile/assets/Mask.svg");
+  height: 200px;
+  width: 400px;
+  text-align: center;
+}
+.products .container2 article:nth-of-type(2) .image2 {
+  position: absolute;
+}
+.products .container2 article:nth-of-type(3) {
+  background-image: url("../Audiophile/assets/Mask.svg");
+  height: 200px;
+  width: 400px;
+  text-align: center;
+}
+.products .container2 article:nth-of-type(3) .image3 {
+  position: absolute;
+}
+.products .container2 article h5 {
+  left: 50%;
+}
+.products .container2 article .shop {
+  position: relative;
+  top: 20%;
+}
+
+.speakers1 {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.speakers1 .container3 {
+  width: 330px;
+  height: 600px;
+  border-radius: 8px;
+  background: #D87D4A;
+  border: none;
+  padding: none;
+  position: relative;
+  display: inline-block;
+}
+.speakers1 .container3 .cerc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin: 10px 40px 40px 0px;
+}
+.speakers1 .container3 .speaker1 {
+  margin: 55px 77px 55px 77px;
+}
+.speakers1 .container3 .Xmark {
+  color: hsl(0, 0%, 100%);
+  text-align: right;
+  font-size: 36px;
+  font-family: Manrope;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 1.286px;
+  text-transform: uppercase;
+  width: 280px;
+  position: relative;
+  top: 20px;
+  left: 19px;
+}
+.speakers1 .container3 .Text1 {
+  width: 280px;
+  color: #FFF;
+  text-align: center;
+  font-size: 15px;
+  font-family: Manrope;
+  font-weight: 500;
+  line-height: 25px;
+  opacity: 0.75;
+  position: relative;
+  top: 15px;
+  left: 19px;
+}
+.speakers1 .container3 .see_product_button1 {
+  border: 2px solid black;
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 98%);
+  padding: 14px 28px;
+  position: relative;
+  top: 15px;
+  left: 75px;
+  font-size: 13px;
+  font-family: Manrope;
+  font-weight: 700;
+  letter-spacing: 1px;
+  width: 180px;
+  height: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.speakers2 {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.speakers2 .container4 {
+  position: relative;
+  display: center;
+}
+.speakers2 .speaker2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  position: relative;
+  text-align: center;
+}
+.speakers2 .Xmark2 {
+  position: absolute;
+  top: 25%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  color: hsl(0, 0%, 0%);
+  font-size: 28px;
+  font-family: Manrope;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.speakers2 .see_product_button2 {
+  border: 1px solid hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 0%);
+  padding: 14px 28px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-size: 13px;
+  font-family: Manrope;
+  font-weight: 700;
+  letter-spacing: 1px;
+  width: 180px;
+  height: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.earbuds {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.earbuds .container5 {
+  position: relative;
+  display: center;
+}
+.earbuds .earbud1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  position: relative;
+  text-align: center;
+}
+
+.earbuds1 {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.earbuds1 .container7 {
+  position: relative;
+  display: center;
+}
+.earbuds1 .earbud2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  position: relative;
+  text-align: center;
+}
+.earbuds1 .YX1 {
+  position: absolute;
+  top: 25%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  color: hsl(0, 0%, 0%);
+  font-size: 28px;
+  font-family: Manrope;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.earbuds1 .see_product_button3 {
+  border: 1px solid hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 0%);
+  padding: 14px 28px;
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  font-size: 13px;
+  font-family: Manrope;
+  font-weight: 700;
+  letter-spacing: 1px;
+  width: 180px;
+  height: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.presentation {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.presentation .container8 {
+  position: relative;
+  display: center;
+}
+.presentation .guy {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  position: relative;
+  text-align: center;
+}
+
+.presentation1 {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.presentation1 .container9 {
+  width: 330px;
+  height: 550px;
+  border-radius: 8px;
+  border: none;
+  padding: none;
+  position: relative;
+  display: inline-block;
+}
+.presentation1 .Bring {
+  display: flex;
+  width: 327px;
+  flex-direction: column;
+  color: #000;
+  text-align: center;
+  font-size: 28px;
+  font-family: Manrope;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.presentation1 .Text2 {
+  display: flex;
+  width: 327px;
+  flex-direction: column;
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+  font-family: Manrope;
+  font-weight: 500;
+  line-height: 25px;
+  opacity: 0.5;
+}
+.presentation1 .colored-word {
+  color: #D87D4A;
+  font-size: 30px;
+}
+
+footer {
+  margin-top: 45px;
+  background-color: hsl(0, 0%, 0%);
+  width: 100%;
+}
+footer .container10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  gap: 15px;
+}
+footer a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+footer ul {
+  display: flex;
+  text-align: center;
+}
+footer nav ul {
+  flex-direction: column;
+  gap: 15px;
+}
+footer .social {
+  margin-top: 15px;
+  width: 150px;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+footer .Text3 {
+  width: 327px;
+  flex-direction: column;
+  color: #FFF;
+  text-align: center;
+  font-size: 15px;
+  font-family: Manrope;
+  font-weight: 500;
+  line-height: 25px;
+  opacity: 0.5;
+}
+footer p {
+  color: #FFF;
+  font-size: 15px;
+  font-family: Manrope;
+  font-weight: 700;
+  line-height: 25px;
+  opacity: 0.5;
+}/*# sourceMappingURL=Homepage_desktop.css.map */

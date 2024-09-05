@@ -1,0 +1,37 @@
+@import"colors";
+@import"spacing";
+@import"typography";
+@import"base";
+
+@media screen and (min-width:990px) {
+    .container1 {
+        width: 900px;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .top {
+        height: 650px;
+        nav {
+            display: flex;
+        }
+    }
+
+    button {
+        display: none;
+    }
+
+    .NEW_PRODUCT {
+        width: 50%;
+        top: calc(25% - 20px/2 - 63px);
+
+    }
+
+    .XX99 {
+        width: 50%;
+        top: calc(25% - 20px - 35px);
+
+    }
+
+
+}

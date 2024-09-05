@@ -1,0 +1,171 @@
+ * {
+   /*Am folosit selectorul universal pentru a customiza toate elementele din html*/
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   -webkit-font-smoothing: antialiased;
+ }
+
+ /**/
+ body {
+   /*Am colorat intreaga pagina si i-am oferit un font special*/
+   background: #b56233;
+   background-image: linear-gradient(#895332, rgb(243, 192, 96));
+   font-family: 'Rubik', sans-serif;
+   margin: 0;
+   height: 100vh;
+   overflow: hidden;
+
+ }
+
+
+
+
+
+
+ .login-form {
+   /*am creat casuta alba si am incercat sa o stilizez */
+   background: #fff;
+   height: 530px;
+   width: 500px;
+   margin: 65px auto;
+   display: flex;
+   flex-direction: column;
+   border-radius: 5px;
+   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.2);
+   position: relative;
+
+ }
+
+ .login-form .action {
+   position: relative;
+   margin: 0;
+   top: 0;
+   left: 15%;
+ }
+
+ .login-form .Final {
+   position: relative;
+   margin: 5%;
+   top: 2%;
+   left: 27%;
+ }
+
+ .input-field {
+   position: relative;
+ }
+
+ #show-passwd {
+   position: absolute;
+   top: 50%;
+   right: 1rem;
+   transform: translateY(-50%);
+   cursor: pointer;
+   width: 1.5rem;
+   display: flex;
+   align-items: center;
+   border: none;
+   background-color: transparent;
+
+ }
+
+ #show-passwd img {
+   width: 100%;
+   height: auto;
+ }
+
+
+ .login-form h1 {
+   /*Am incercat sa aliniez tiltul prin padding dand diferite dimensiuni iar cu partea de weight l-am ingrosat*/
+   padding: 50px 50px 0px 100px;
+   font-weight: 300px;
+
+ }
+
+ .login-form .content {
+   /*am Selectat strict clasa content pentru a o centra si a o dimensiona*/
+   padding: 35px;
+   text-align: center;
+ }
+
+ .login-form .input-field {
+   padding: 15px 5px;
+ }
+
+ .login-form .input-field input {
+   /*am stilizat cele 2 campuri unde trebuie completate de catre utilizator si am adaugat tranzitiile deriogare*/
+   font-size: 20px;
+   border: 0;
+   display: block;
+   font-family: 'Rubik', sans-serif;
+   width: 100%;
+   padding: 10px 15px;
+   border-bottom: 1px solid #784d4d;
+   outline: none;
+   -webkit-transition: all 0.5s;
+   transition: all 0.5s;
+ }
+
+ .login-form .action {
+   /* display: -webkit-box; */
+   display: flex;
+   /* -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row; */
+
+ }
+
+ .login-form .action button {
+   /* Am stilizat butonul de jos sign in si  am adaugat tranzitiile derigoare*/
+   width: 70%;
+   border: none;
+   padding: 20px;
+   font-family: 'Rubik', sans-serif;
+   cursor: pointer;
+   text-transform: uppercase;
+   background: rgb(82, 183, 82);
+   color: black;
+   border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 50px;
+   border-top-left-radius: 50px;
+   border-top-right-radius: 50px;
+   letter-spacing: 1px;
+   outline: 0;
+   -webkit-transition: all 0.5s;
+   transition: all 0.5s;
+ }
+
+
+ .login-form .action button:hover {
+   background: rgb(82, 183, 82);
+ }
+
+ login-form .action button:nth-child(1) {
+   background: rgb(82, 183, 82);
+   color: #fff;
+   /* border-bottom-left-radius: 0;
+    border-bottom-right-radius: 5px; */
+ }
+
+ .login-form .action button:nth-child(1):hover {
+   background: rgb(82, 183, 82);
+ }
+
+ .link {
+   font-size: 17px;
+   border: 0;
+   display: block;
+   font-family: 'Rubik', sans-serif;
+   width: 100%;
+   padding: 10px 15px;
+   outline: none;
+   text-align: left;
+   color: rgb(36, 36, 111);
+   text-decoration: none;
+ }
+
+ .action .Member {
+   background: rgb(82, 183, 82);
+   text-decoration: none;
+   color: none;
+ }
